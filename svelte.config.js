@@ -7,10 +7,7 @@ const config = {
  // for more information about preprocessors
   preprocess: preprocess(),
   // Comment the paths if wants to run in dev mode.
-paths: {
-  base: '/svelte-kit-blog-demo',
-  assets: '/svelte-kit-blog-demo'
-},
+
 
  kit: {
  // hydrate the <div id="svelte"> element in src/app.html
@@ -19,7 +16,10 @@ paths: {
     pages: 'build',
     assets: 'build',
     fallback: null
-  })
+  }),
+  paths: {
+    base: '/my-sveltekit-pokedex',
+  },
  }
 };
 
