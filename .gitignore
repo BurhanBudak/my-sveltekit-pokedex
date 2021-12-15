@@ -3,4 +3,5 @@ node_modules
 /build
 /.svelte-kit
 /package
+gh-pages
 # /public/build/
